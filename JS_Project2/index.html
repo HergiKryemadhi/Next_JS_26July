@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bota e Tigrave</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-mode">
+    <header>
+        <div class="header-content">
+            <h1>Bota e Tigrave</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Kryefaqja</a></li>
+                    <li><a href="#about">Rreth Tigrave</a></li>
+                    <li><a href="#species">Llojet e Tigrave</a></li>
+                    <li><a href="#conservation">Ruajtja</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button id="mode-toggle" class="mode-toggle">
+            <i class="material-icons">dark_mode</i>
+        </button>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>Mirë se vini në Botën e Tigrave</h2>
+            <p>Zbuloni botën madhështore të tigrave, habitatet e tyre dhe përpjekjet për ruajtjen e tyre.</p>
+            <img src="https://th.bing.com/th/id/OIP.5uG0ghlUtBfVcFQ0Dmlg1wHaE8?w=282&h=188&c=7&r=0&o=5&pid=1.7" alt="Tigër duke ecur">
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>Rreth Tigrave</h2>
+            <div class="flex-container">
+                <div class="text-content">
+                    <p>Tigrat janë speciet më të mëdha të maceve të gjalla dhe anëtarë të gjinisë Panthera. Ata janë kafshë territoriale dhe përgjithësisht të vetmuara, shpesh duke kërkuar zona të mëdha të vazhdueshme habitati.</p>
+                </div>
+                <div class="image-container">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Bengal_tiger_%28Panthera_tigris_tigris%29_female_3_crop.jpg" alt="Tigër në natyrë">
+                </div>
+            </div>
+        </section>
+
+        <section id="species" class="content-section">
+            <h2>Llojet e Tigrave</h2>
+            <div class="species-container">
+                <div class="species-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Tiger_in_Ranthambhore.jpg" alt="Tigri i Bengalit">
+                    <div class="species-info">
+                        <h3>Tigri i Bengalit</h3>
+                        <p>Tigri i Bengalit është vendas në nënkontinentin indian.</p>
+                    </div>
+                </div>
+                <div class="species-card">
+                    <img src="https://www.publicdomainpictures.net/pictures/160000/velka/tigre-de-siberie-vie-sauvage.jpg" alt="Tigri Siberian">
+                    <div class="species-info">
+                        <h3>Tigri Siberian</h3>
+                        <p>Tigri Siberian gjendet në Lindjen e Largët Ruse dhe në Kinën Verilindore.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="conservation" class="content-section">
+            <h2>Ruajtja e Tigreve</h2>
+            <div class="flex-container">
+                <div class="text-content">
+                    <p>Përpjekjet për ruajtjen e tigrave fokusohen në mbrojtjen e habitateve, parandalimin e gjuetisë së paligjshme dhe rritjen e ndërgjegjësimit publik.</p>
+                </div>
+                <div class="image-container">
+                    <img src="https://media.gettyimages.com/id/871661426/photo/tiger.jpg?s=612x612&w=0&k=20&c=hhT9HfPjeK1Ewkdj20iOicyajJOpX9yB31VUYgjqwyc=" alt="Tigër në habitat të mbrojtur">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="server.js"></script>
+</body>
+</html>
